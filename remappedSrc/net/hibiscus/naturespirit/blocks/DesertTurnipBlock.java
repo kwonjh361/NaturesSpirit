@@ -1,6 +1,5 @@
 package net.hibiscus.naturespirit.blocks;
 
-import net.hibiscus.naturespirit.registration.HibiscusBlocksAndItems;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
@@ -11,25 +10,25 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 
 public class DesertTurnipBlock extends DirectionalBlock {
-   public DesertTurnipBlock(BlockBehaviour.Properties settings) {
-      super(settings);
-      this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.UP));
-   }
 
-   public BlockState rotate(BlockState state, Rotation rotation) {
-      return state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
-   }
+  public DesertTurnipBlock(BlockBehaviour.Properties settings) {
+    super(settings);
+    this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.UP));
+  }
 
-   public BlockState getStateForPlacement(BlockPlaceContext ctx) {
-      Direction direction = ctx.getClickedFace();
-      return this.defaultBlockState().setValue(FACING, direction);
-   }
+  @Override
+  public BlockState rotate(BlockState state, Rotation rotation) {
+    return state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
+  }
 
-   protected void createBlockStateDefinition(StateDefinition.Builder <Block, BlockState> builder) {
-      builder.add(FACING);
-   }
+  @Override
+  public BlockState getStateForPlacement(BlockPlaceContext ctx) {
+    Direction direction = ctx.getClickedFace();
+    return this.defaultBlockState().setValue(FACING, direction);
+  }
 
-   public DesertPlantBlock getStem() {
-      return (DesertPlantBlock) HibiscusBlocksAndItems.DESERT_TURNIP_STEM;
-   }
+  @Override
+  protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+    builder.add(FACING);
+  }
 }
