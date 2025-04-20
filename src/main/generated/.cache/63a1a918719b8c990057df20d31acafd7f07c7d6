@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-20T18:35:26.337025	Nature's Spirit/Block Loot Tables
+// 1.20.1	2025-04-20T14:31:33.1557552	Nature's Spirit/Block Loot Tables
 73b06cda89f4353469f6736f9a30ba72bada412b data\natures_spirit\loot_tables\blocks\aspen_sapling.json
 6412fe66659fe9bd3ce21458348566e3daff5936 data\natures_spirit\loot_tables\blocks\saxaul_door.json
 66f9d84a40ab6ed34aff8310fb819a68b8591381 data\natures_spirit\loot_tables\blocks\framed_paper_panel.json
@@ -199,6 +199,7 @@ e114ed2bb28aa7acf511b92215d1e45654f5a088 data\natures_spirit\loot_tables\blocks\
 1e2fe0d829a9f1d0b5fb185d3fc836330be02754 data\natures_spirit\loot_tables\blocks\gray_chalk_slab.json
 a6554887fe1652bdc09b524a15083936372282ad data\natures_spirit\loot_tables\blocks\saxaul_trapdoor.json
 56ac64cee723fc1dd051b169f199bfd67fa0d13b data\natures_spirit\loot_tables\blocks\coconut_mosaic.json
+4d2bdbbc9e2f421e341cf6286fdf99e77ade78c2 data\natures_spirit\loot_tables\blocks\chiseled_chert.json
 2b292f34960bbd5f5682a28b0f88bf3ff7035e67 data\natures_spirit\loot_tables\blocks\redwood_pressure_plate.json
 5e8319f471715af47b90b227a71af530964660f7 data\natures_spirit\loot_tables\blocks\part_blue_wisteria_leaves.json
 b842e7e8ccd80ef8b7ee34e0f29c057c5b8d2d7c data\natures_spirit\loot_tables\blocks\willow_fence.json
@@ -606,6 +607,7 @@ c5bfeddf8b14fb6d318f6c3d68a3356e14163c73 data\natures_spirit\loot_tables\blocks\
 fa61383a902e6584ca233962181eedb4a71f4ea5 data\natures_spirit\loot_tables\blocks\stripped_cypress_wood.json
 75e88c7756692f8c2e0c0b2a066af469eef29bad data\natures_spirit\loot_tables\blocks\maple_wood.json
 8233b20e8a30a4f36b402a3d74eb276c771552e2 data\natures_spirit\loot_tables\blocks\joshua_sapling.json
+4198bb3200bb9bdd86b796a852bf67df9f938189 data\natures_spirit\loot_tables\blocks\chiseled_travertine.json
 fdf09cbe9e021f8fffb80ad338e409b55b4a3f2a data\natures_spirit\loot_tables\blocks\chert_slab.json
 b472e44b57d37ebb5295fbd65dce5490ef84df0a data\natures_spirit\loot_tables\blocks\coconut_stairs.json
 83cc90592a4d1ea7abe10d56e302a1f950854ddb data\natures_spirit\loot_tables\blocks\green_kaolin_brick_stairs.json

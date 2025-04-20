@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-20T18:35:26.367246	Nature's Spirit/Tags for minecraft:item
+// 1.20.1	2025-04-20T14:31:33.1780861	Nature's Spirit/Tags for minecraft:item
 1357817f3d2c66ec4e86e9638e7d21ad6670be4d data\minecraft\tags\items\wooden_doors.json
 33d999db382b367e73753d01e67a7990b8e5b203 data\natures_spirit\tags\items\willow_logs.json
 09a802fdad5d114ae08b078e8acb1e9627b49a6d data\minecraft\tags\items\gold_ores.json
@@ -9,8 +9,8 @@
 f15e223c90a35e483f85a8f9a88d16dd2a9d2187 data\natures_spirit\tags\items\joshua_logs.json
 d69fd97288dbda0d2e15246e1b525ecc0f2f82f1 data\minecraft\tags\items\planks.json
 88e3be54d5b923f4584e73933f3f8468e09184ca data\minecraft\tags\items\dirt.json
-c38e300fbdb8cfd1be351c151c1ee3e6645908c9 data\minecraft\tags\items\fence_gates.json
 d751312ed96812aacae500233894cc6d1d32ce7b data\minecraft\tags\items\wooden_fences.json
+c38e300fbdb8cfd1be351c151c1ee3e6645908c9 data\minecraft\tags\items\fence_gates.json
 58447812ccf0c06559693f643081653e5a207201 data\natures_spirit\tags\items\cedar_logs.json
 dbccf73ffcdf2eb2a9063e8e24b4108d2a2033d8 data\minecraft\tags\items\boats.json
 36531583ece4948c91e24d593034ed5f2967ac6f data\minecraft\tags\items\coal_ores.json
