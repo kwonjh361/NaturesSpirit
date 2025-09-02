@@ -801,7 +801,7 @@ public class TerraFlavaParameters {
       return temperature > 1 && humidity < 4 && weirdness.max() >= 0L ? BiomeKeys.WINDSWEPT_SAVANNA : biomeKey;
    }
    private RegistryKey <Biome> getWoodedDrylandsOrRegularBiome(int temperature, int humidity, MultiNoiseUtil.ParameterRange weirdness) {
-      return temperature == 4 ? NSBiomes.WOODED_DRYLANDS : this.getRegularBiome(temperature, humidity, weirdness);
+      return temperature == 4 && NSConfig.has_wooded_drylands ? NSBiomes.WOODED_DRYLANDS : this.getRegularBiome(temperature, humidity, weirdness);
    }
    private RegistryKey <Biome> getBadlandsBiome(int humidity, MultiNoiseUtil.ParameterRange weirdness) {
       if(humidity < 2) {
