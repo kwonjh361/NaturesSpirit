@@ -770,6 +770,7 @@ public class TerraFeraxParameters extends VanillaBiomeParameters {
     } else if (temperature == 3 && CONFIG.has_tropical_shores) {
       return NSBiomes.TROPICAL_SHORES;
     } else {
+        return temperature == 4 ? (CONFIG.has_lively_dunes ? NSBiomes.LIVELY_DUNES : (BiomeKeys.DESERT)) : BiomeKeys.BEACH;
     }
   }
 
@@ -817,7 +818,7 @@ public class TerraFeraxParameters extends VanillaBiomeParameters {
   }
 
   private RegistryKey<Biome> getWetlandType(int temperature, int humidity, MultiNoiseUtil.ParameterRange weirdness) {
-    if (temperature == 0 || (CONFIG.has_stratified_desert && temperature == 4)) {
+    if (temperature == 0 || (CONFIG.has_lively_dunes && temperature == 4)) {
       return this.getRegularBiome(temperature, humidity, weirdness);
     } else if ((humidity <= 3 || temperature > 2) && CONFIG.has_marsh) {
       return NSBiomes.MARSH;
