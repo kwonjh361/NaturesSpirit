@@ -47,6 +47,7 @@ public class NSItemTagGenerator extends FabricTagProvider.ItemTagProvider {
         this.copy(BlockTags.WOODEN_FENCES, ItemTags.WOODEN_FENCES);
         this.copy(BlockTags.WOODEN_BUTTONS, ItemTags.WOODEN_BUTTONS);
         this.copy(NSTags.Blocks.STRIPPED_LOGS, NSTags.Items.STRIPPED_LOGS);
+        this.copy(NSTags.Blocks.STRIPPED_WOOD, NSTags.Items.STRIPPED_WOOD);
         this.copy(NSTags.Blocks.ALLUAUDIA_BUNDLES, NSTags.Items.ALLUAUDIA_BUNDLES);
         this.copy(BlockTags.PLANKS, ItemTags.PLANKS);
         this.copy(BlockTags.FENCE_GATES, ItemTags.FENCE_GATES);
