@@ -54,6 +54,7 @@ public class NSItemTagGenerator extends FabricTagProvider.ItemTagProvider {
     copy(BlockTags.WOODEN_PRESSURE_PLATES, ItemTags.WOODEN_PRESSURE_PLATES);
     copy(BlockTags.SAPLINGS, ItemTags.SAPLINGS);
     copy(BlockTags.LOGS_THAT_BURN, ItemTags.LOGS_THAT_BURN);
+    copy(NSTags.Blocks.STRIPPED_WOOD, NSTags.Items.STRIPPED_WOOD);
     copy(BlockTags.LEAVES, ItemTags.LEAVES);
     copy(BlockTags.WOODEN_TRAPDOORS, ItemTags.WOODEN_TRAPDOORS);
     copy(BlockTags.STANDING_SIGNS, ItemTags.SIGNS);
