@@ -493,7 +493,7 @@ public class NSConfiguredFeatures {
       register(context, OLIVE_TREE, Feature.TREE, new TreeFeatureConfig.Builder(BlockStateProvider.of(NSWoods.OLIVE.getLog()),
               new OliveTrunkPlacer(4, 1, 2, UniformIntProvider.create(4, 6), .85F, UniformIntProvider.create(4, 5), Registries.BLOCK.getOrCreateEntryList(BlockTags.MANGROVE_LOGS_CAN_GROW_THROUGH)),
               BlockStateProvider.of(NSWoods.OLIVE.getLeaves()),
-              new RandomSpreadFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(0), ConstantIntProvider.create(2), 60),
+              new BlobFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(0), 2),
               new TwoLayersFeatureSize(1, 0, 1, OptionalInt.of(5))
       ).ignoreVines().build());
 
